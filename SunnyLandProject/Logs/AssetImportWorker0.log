@@ -1,0 +1,2193 @@
+Unity Editor version:    2020.3.18f1 (a7d1c678663c)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57817
+Successfully changed project path to: /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject
+/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Assets
+GfxDevice: creating device client; threaded=0
+2022-05-12 11:41:18.715 Unity[18082:5956032] iMac preferred device: AMD Radeon Pro 555X (high power)
+2022-05-12 11:41:18.715 Unity[18082:5956032] Metal devices available: 1
+2022-05-12 11:41:18.715 Unity[18082:5956032] 0: AMD Radeon Pro 555X (high power)
+2022-05-12 11:41:18.716 Unity[18082:5956032] Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56082
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000581 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1782ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002579 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (839ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004396 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.004524 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/SunnyLandProject.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/SunnyLandProject.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D62F1089-590B-7EB5-1DFC-CB957E7F55C7}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+[C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/SunnyLandProject.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{AB247848-2F2B-99D7-48A7-2212F3D7AACC}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{3297C6F4-CD16-D22F-1EF9-D28EFA0C5385}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.XR.LegacyInputHelpers", "UnityEngine.XR.LegacyInputHelpers.csproj", "{AEA6A03F-0BB8-C995-C25C-18DE307ADB92}"
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 367
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.csproj:
+[C# Project]   367:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   368:  </Reference>
+[C# Project]   369:  <Reference Include="Newtonsoft.Json">
+[C# Project]   370:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   371:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.csproj:
+[C# Project]   367:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   368:  </Reference>
+[C# Project]   369:  <Reference Include="Newtonsoft.Json">
+[C# Project]   370:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   371:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 393
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.TestRunner.csproj:
+[C# Project]   393:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   394:  </Reference>
+[C# Project]   395:  <Reference Include="netstandard">
+[C# Project]   396:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   397:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.TestRunner.csproj:
+[C# Project]   393:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   394:  </Reference>
+[C# Project]   395:  <Reference Include="netstandard">
+[C# Project]   396:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   397:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.XR.LegacyInputHelpers.csproj because it has changed
+[C# Project] First difference on line 286
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.XR.LegacyInputHelpers.csproj:
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   290:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.XR.LegacyInputHelpers.csproj:
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   290:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.Tests.csproj because it has changed
+[C# Project] First difference on line 343
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.Tests.csproj:
+[C# Project]   343:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   344:  </Reference>
+[C# Project]   345:  <Reference Include="netstandard">
+[C# Project]   346:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   347:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.UI.Tests.csproj:
+[C# Project]   343:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   344:  </Reference>
+[C# Project]   345:  <Reference Include="netstandard">
+[C# Project]   346:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   347:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 352
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.csproj:
+[C# Project]   352:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   353:  </Reference>
+[C# Project]   354:  <Reference Include="Newtonsoft.Json">
+[C# Project]   355:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   356:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.csproj:
+[C# Project]   352:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   353:  </Reference>
+[C# Project]   354:  <Reference Include="Newtonsoft.Json">
+[C# Project]   355:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   356:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.csproj because it has changed
+[C# Project] First difference on line 318
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.csproj:
+[C# Project]   318:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project]   320:  <Reference Include="Newtonsoft.Json">
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   322:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.csproj:
+[C# Project]   318:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project]   320:  <Reference Include="Newtonsoft.Json">
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   322:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 341
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.csproj:
+[C# Project]   341:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   342:  </Reference>
+[C# Project]   343:  <Reference Include="Newtonsoft.Json">
+[C# Project]   344:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   345:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.csproj:
+[C# Project]   341:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   342:  </Reference>
+[C# Project]   343:  <Reference Include="Newtonsoft.Json">
+[C# Project]   344:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   345:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Tests.csproj because it has changed
+[C# Project] First difference on line 331
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Tests.csproj:
+[C# Project]   331:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="netstandard">
+[C# Project]   334:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   335:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Tests.csproj:
+[C# Project]   331:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="netstandard">
+[C# Project]   334:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   335:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.csproj because it has changed
+[C# Project] First difference on line 339
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.csproj:
+[C# Project]   339:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   340:  </Reference>
+[C# Project]   341:  <Reference Include="Newtonsoft.Json">
+[C# Project]   342:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.csproj:
+[C# Project]   339:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   340:  </Reference>
+[C# Project]   341:  <Reference Include="Newtonsoft.Json">
+[C# Project]   342:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Runtime.csproj because it has changed
+[C# Project] First difference on line 326
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Runtime.csproj:
+[C# Project]   326:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   327:  </Reference>
+[C# Project]   328:  <Reference Include="Newtonsoft.Json">
+[C# Project]   329:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   330:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Runtime.csproj:
+[C# Project]   326:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   327:  </Reference>
+[C# Project]   328:  <Reference Include="Newtonsoft.Json">
+[C# Project]   329:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   330:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Tests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="netstandard">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="netstandard">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.Tests.csproj because it has changed
+[C# Project] First difference on line 274
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 633
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Assembly-CSharp.csproj:
+[C# Project]   633:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   634:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+[C# Project]   635:  </Reference>
+[C# Project]   636:  <Reference Include="Unity.2D.Tilemap.Editor">
+[C# Project]   637:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Assembly-CSharp.csproj:
+[C# Project]   633:   </ItemGroup>
+[C# Project]   634:   <ItemGroup>
+[C# Project]   635:     <ProjectReference Include="Unity.VSCode.Editor.csproj">
+[C# Project]   636:       <Project>{0F7004D0-F5E0-CD58-3193-7CBB5EA155B8}</Project>
+[C# Project]   637:       <Name>Unity.VSCode.Editor</Name>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.Tests.csproj because it has changed
+[C# Project] First difference on line 274
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Tests.csproj because it has changed
+[C# Project] First difference on line 274
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   274:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   275:  </Reference>
+[C# Project]   276:  <Reference Include="netstandard">
+[C# Project]   277:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   278:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.csproj because it has changed
+[C# Project] First difference on line 285
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.SpatialTracking.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.csproj because it has changed
+[C# Project] First difference on line 285
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.DataPrivacy.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 441
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.TestRunner.csproj:
+[C# Project]   441:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   442:  </Reference>
+[C# Project]   443:  <Reference Include="Mono.Cecil">
+[C# Project]   444:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   445:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.TestRunner.csproj:
+[C# Project]   441:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   442:  </Reference>
+[C# Project]   443:  <Reference Include="Mono.Cecil">
+[C# Project]   444:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   445:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 587
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   587:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   588:  </Reference>
+[C# Project]   589:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   590:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   591:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   587:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   588:  </Reference>
+[C# Project]   589:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   590:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   591:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 319
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.csproj:
+[C# Project]   319:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   320:  </Reference>
+[C# Project]   321:  <Reference Include="Newtonsoft.Json">
+[C# Project]   322:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.csproj:
+[C# Project]   319:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   320:  </Reference>
+[C# Project]   321:  <Reference Include="Newtonsoft.Json">
+[C# Project]   322:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 371
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Services.Core.Editor.csproj:
+[C# Project]   371:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   372:  </Reference>
+[C# Project]   373:  <Reference Include="Newtonsoft.Json">
+[C# Project]   374:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   375:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Services.Core.Editor.csproj:
+[C# Project]   371:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   372:  </Reference>
+[C# Project]   373:  <Reference Include="Newtonsoft.Json">
+[C# Project]   374:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   375:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 541
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.Editor.csproj:
+[C# Project]   541:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   542:  </Reference>
+[C# Project]   543:  <Reference Include="Newtonsoft.Json">
+[C# Project]   544:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   545:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Timeline.Editor.csproj:
+[C# Project]   541:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   542:  </Reference>
+[C# Project]   543:  <Reference Include="Newtonsoft.Json">
+[C# Project]   544:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   545:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 322
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="nunit.framework">
+[C# Project]   325:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   326:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VisualStudio.Editor.csproj:
+[C# Project]   322:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="nunit.framework">
+[C# Project]   325:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   326:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.csproj because it has changed
+[C# Project] First difference on line 294
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.csproj:
+[C# Project]   294:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   295:  </Reference>
+[C# Project]   296:  <Reference Include="Newtonsoft.Json">
+[C# Project]   297:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   298:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.csproj:
+[C# Project]   294:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   295:  </Reference>
+[C# Project]   296:  <Reference Include="Newtonsoft.Json">
+[C# Project]   297:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 330
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   330:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   331:  </Reference>
+[C# Project]   332:  <Reference Include="Newtonsoft.Json">
+[C# Project]   333:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   334:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   330:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   331:  </Reference>
+[C# Project]   332:  <Reference Include="Newtonsoft.Json">
+[C# Project]   333:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   334:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 425
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.Editor.csproj:
+[C# Project]   425:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   426:  </Reference>
+[C# Project]   427:  <Reference Include="Newtonsoft.Json">
+[C# Project]   428:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   429:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.Editor.csproj:
+[C# Project]   425:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   426:  </Reference>
+[C# Project]   427:  <Reference Include="Newtonsoft.Json">
+[C# Project]   428:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   429:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 286
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/DocCodeExamples.csproj:
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   290:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/DocCodeExamples.csproj:
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   290:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-weaver.Editor.csproj because it has changed
+[C# Project] First difference on line 290
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-weaver.Editor.csproj:
+[C# Project]   290:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project]   292:  <Reference Include="Mono.Cecil.Mdb">
+[C# Project]   293:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.Mdb.dll</HintPath>
+[C# Project]   294:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-weaver.Editor.csproj:
+[C# Project]   290:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project]   292:  <Reference Include="Mono.Cecil.Mdb">
+[C# Project]   293:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.Mdb.dll</HintPath>
+[C# Project]   294:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.EditorTests.csproj because it has changed
+[C# Project] First difference on line 297
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   297:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="nunit.framework">
+[C# Project]   300:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   301:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   297:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="nunit.framework">
+[C# Project]   300:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   301:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 314
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Rider.Editor.csproj:
+[C# Project]   314:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   315:  </Reference>
+[C# Project]   316:  <Reference Include="mscorlib">
+[C# Project]   317:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   318:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Rider.Editor.csproj:
+[C# Project]   314:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   315:  </Reference>
+[C# Project]   316:  <Reference Include="mscorlib">
+[C# Project]   317:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   318:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.EditorTests.csproj because it has changed
+[C# Project] First difference on line 298
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="mscorlib">
+[C# Project]   301:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   302:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   298:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   299:  </Reference>
+[C# Project]   300:  <Reference Include="mscorlib">
+[C# Project]   301:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.StandardEvents.EditorTests.csproj because it has changed
+[C# Project] First difference on line 317
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.StandardEvents.EditorTests.csproj:
+[C# Project]   317:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+[C# Project]   318:  </Reference>
+[C# Project]   319:  <Reference Include="nunit.framework">
+[C# Project]   320:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   321:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Analytics.StandardEvents.EditorTests.csproj:
+[C# Project]   317:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+[C# Project]   318:  </Reference>
+[C# Project]   319:  <Reference Include="nunit.framework">
+[C# Project]   320:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.EditorTests.csproj because it has changed
+[C# Project] First difference on line 307
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   307:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   308:  </Reference>
+[C# Project]   309:  <Reference Include="mscorlib">
+[C# Project]   310:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   311:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   307:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   308:  </Reference>
+[C# Project]   309:  <Reference Include="mscorlib">
+[C# Project]   310:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   311:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.DevX.Editor.csproj because it has changed
+[C# Project] First difference on line 301
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.DevX.Editor.csproj:
+[C# Project]   301:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project]   303:  <Reference Include="mscorlib">
+[C# Project]   304:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   305:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.DevX.Editor.csproj:
+[C# Project]   301:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project]   303:  <Reference Include="mscorlib">
+[C# Project]   304:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   305:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Editor.csproj because it has changed
+[C# Project] First difference on line 301
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Editor.csproj:
+[C# Project]   301:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project]   303:  <Reference Include="Newtonsoft.Json">
+[C# Project]   304:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   305:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.Editor.csproj:
+[C# Project]   301:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   302:  </Reference>
+[C# Project]   303:  <Reference Include="Newtonsoft.Json">
+[C# Project]   304:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   305:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.csproj because it has changed
+[C# Project] First difference on line 288
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.csproj:
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project]   290:  <Reference Include="Newtonsoft.Json">
+[C# Project]   291:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.csproj:
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project]   290:  <Reference Include="Newtonsoft.Json">
+[C# Project]   291:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Advertisements.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.SysrootPackage.Editor.csproj because it has changed
+[C# Project] First difference on line 285
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.SysrootPackage.Editor.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.SysrootPackage.Editor.csproj:
+[C# Project]   285:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Editor.csproj because it has changed
+[C# Project] First difference on line 318
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   318:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project]   320:  <Reference Include="Newtonsoft.Json">
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   322:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   318:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   319:  </Reference>
+[C# Project]   320:  <Reference Include="Newtonsoft.Json">
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   322:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Editor.csproj because it has changed
+[C# Project] First difference on line 321
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   322:  </Reference>
+[C# Project]   323:  <Reference Include="Newtonsoft.Json">
+[C# Project]   324:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   325:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   321:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   322:  </Reference>
+[C# Project]   323:  <Reference Include="Newtonsoft.Json">
+[C# Project]   324:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   325:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 290
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VSCode.Editor.csproj:
+[C# Project]   290:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project]   292:  <Reference Include="Newtonsoft.Json">
+[C# Project]   293:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   294:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.VSCode.Editor.csproj:
+[C# Project]   290:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   291:  </Reference>
+[C# Project]   292:  <Reference Include="Newtonsoft.Json">
+[C# Project]   293:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   294:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.SpatialTracking.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.SpatialTracking.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.SpatialTracking.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.EditorTests.csproj because it has changed
+[C# Project] First difference on line 288
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.EditorTests.csproj:
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project]   290:  <Reference Include="nunit.framework">
+[C# Project]   291:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   292:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/com.unity.multiplayer-hlapi.EditorTests.csproj:
+[C# Project]   288:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/nuget.mono-cecil@0.1.6-preview/Mono.Cecil.dll</HintPath>
+[C# Project]   289:  </Reference>
+[C# Project]   290:  <Reference Include="nunit.framework">
+[C# Project]   291:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Analytics.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Analytics.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Analytics.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEngine.Monetization.Editor.Tests.csproj:
+[C# Project]   284:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="mscorlib">
+[C# Project]   287:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Sysroot.Linux_x86_64.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Toolchain.Linux-x86_64.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.Tests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/UnityEditor.XR.LegacyInputHelpers.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Nuget.NewtonsoftJson.EditorTests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Nuget.NewtonsoftJson.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="nunit.framework">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.Nuget.NewtonsoftJson.EditorTests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="nunit.framework">
+[C# Project]   286:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project] Writing /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/TareaAA3_SunnyLand_nogit/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+
+[C# Project] New /Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   283:  <HintPath>/Users/Alumne_1/Desktop/AA3 SunnyLand Laia/SunnyLandProject/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+[C# Project]   284:  </Reference>
+[C# Project]   285:  <Reference Include="mscorlib">
+[C# Project]   286:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+[C# Project]   287:  </Reference>
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.2 MB.
+System memory in use after: 180.4 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 2392.
+Total: 2.932627 ms (FindLiveObjects: 0.154660 ms CreateObjectMapping: 0.056226 ms MarkObjects: 2.307071 ms  DeleteObjects: 0.414053 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Audio/Zorro/Zorro.mixer
+  artifactKey: Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Zorro/Zorro.mixer using Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae7ef092f761b8b3dfec13d108f7b3b') in 0.628736 seconds 
+  Import took 0.632434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002152 seconds.
+  path: Assets/Audio/Zorro/Zorro.mixer
+  artifactKey: Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Zorro/Zorro.mixer using Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae7ef092f761b8b3dfec13d108f7b3b') in 0.002464 seconds 
+  Import took 0.004887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.135454 seconds.
+  path: Assets/Audio/Zorro/Zorro.mixer
+  artifactKey: Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Zorro/Zorro.mixer using Guid(4d2df5ee84f48445f8637341678997b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7327112cb0291204adf58b4ea565bb28') in 0.003277 seconds 
+  Import took 0.005822 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1096ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 182.6 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2395.
+Total: 2.444103 ms (FindLiveObjects: 0.163188 ms CreateObjectMapping: 0.055762 ms MarkObjects: 2.203543 ms  DeleteObjects: 0.020950 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002508 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.7 MB.
+System memory in use after: 182.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 2.309878 ms (FindLiveObjects: 0.144967 ms CreateObjectMapping: 0.053933 ms MarkObjects: 2.093913 ms  DeleteObjects: 0.016348 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (892ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (320ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.9 MB.
+System memory in use after: 183.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2399.
+Total: 2.339419 ms (FindLiveObjects: 0.143880 ms CreateObjectMapping: 0.051306 ms MarkObjects: 2.127839 ms  DeleteObjects: 0.015884 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.2 MB.
+System memory in use after: 183.3 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 2.315277 ms (FindLiveObjects: 0.141953 ms CreateObjectMapping: 0.049026 ms MarkObjects: 2.103752 ms  DeleteObjects: 0.019902 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.3 MB.
+System memory in use after: 183.5 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 2.391516 ms (FindLiveObjects: 0.160722 ms CreateObjectMapping: 0.056840 ms MarkObjects: 2.155298 ms  DeleteObjects: 0.017673 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3034.286363 seconds.
+  path: Assets/Audio/Caja y Cereza/Caja y Cereza.mixer
+  artifactKey: Guid(2cef9ed8b472e4d89a976a066d13b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Caja y Cereza/Caja y Cereza.mixer using Guid(2cef9ed8b472e4d89a976a066d13b8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a745153cdbf4fec1768bfd38d4c82f') in 0.015089 seconds 
+  Import took 0.017960 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.5 MB.
+System memory in use after: 183.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 2.329680 ms (FindLiveObjects: 0.143186 ms CreateObjectMapping: 0.051103 ms MarkObjects: 2.117779 ms  DeleteObjects: 0.016930 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1045ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.7 MB.
+System memory in use after: 183.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2408.
+Total: 2.338889 ms (FindLiveObjects: 0.148896 ms CreateObjectMapping: 0.053880 ms MarkObjects: 2.118849 ms  DeleteObjects: 0.016588 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1041ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 184.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2410.
+Total: 2.330783 ms (FindLiveObjects: 0.150488 ms CreateObjectMapping: 0.050168 ms MarkObjects: 2.112993 ms  DeleteObjects: 0.016477 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.2 MB.
+System memory in use after: 184.3 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.409162 ms (FindLiveObjects: 0.167112 ms CreateObjectMapping: 0.060167 ms MarkObjects: 2.162506 ms  DeleteObjects: 0.018848 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.4 MB.
+System memory in use after: 184.5 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2414.
+Total: 2.287031 ms (FindLiveObjects: 0.142310 ms CreateObjectMapping: 0.048533 ms MarkObjects: 2.079598 ms  DeleteObjects: 0.016041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 2.333724 ms (FindLiveObjects: 0.149745 ms CreateObjectMapping: 0.055284 ms MarkObjects: 2.111692 ms  DeleteObjects: 0.016356 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002498 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 184.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 2.331227 ms (FindLiveObjects: 0.151634 ms CreateObjectMapping: 0.053258 ms MarkObjects: 2.109652 ms  DeleteObjects: 0.016024 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 2.382001 ms (FindLiveObjects: 0.143451 ms CreateObjectMapping: 0.050308 ms MarkObjects: 2.170511 ms  DeleteObjects: 0.017160 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1037ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.1 MB.
+System memory in use after: 185.2 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2422.
+Total: 2.395244 ms (FindLiveObjects: 0.172936 ms CreateObjectMapping: 0.062029 ms MarkObjects: 2.142846 ms  DeleteObjects: 0.016786 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2108.790530 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(1f44bf16ee1f93b14abcb7b718f8cd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(1f44bf16ee1f93b14abcb7b718f8cd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac462a8c9cab675f8d98a855965a7c6e') in 0.008351 seconds 
+  Import took 0.011576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.804800 seconds.
+  path: Assets/Scripts/AudioControler.cs
+  artifactKey: Guid(9374ef18474044be28469568df666f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioControler.cs using Guid(9374ef18474044be28469568df666f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c531a51f7f5cd791b8b6e1e1f0e59b6') in 0.301477 seconds 
+  Import took 0.304132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (311ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.4 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 2.357266 ms (FindLiveObjects: 0.147644 ms CreateObjectMapping: 0.053848 ms MarkObjects: 2.138093 ms  DeleteObjects: 0.017044 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Script error: OnCollisionEnter
+This message parameter has to be of type: Collision
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.8 MB.
+System memory in use after: 189.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 2.360486 ms (FindLiveObjects: 0.152768 ms CreateObjectMapping: 0.053752 ms MarkObjects: 2.131507 ms  DeleteObjects: 0.021851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (886ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.0 MB.
+System memory in use after: 190.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2428.
+Total: 2.420544 ms (FindLiveObjects: 0.150591 ms CreateObjectMapping: 0.051546 ms MarkObjects: 2.200102 ms  DeleteObjects: 0.017676 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.1 MB.
+System memory in use after: 190.3 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2430.
+Total: 2.350968 ms (FindLiveObjects: 0.157235 ms CreateObjectMapping: 0.054959 ms MarkObjects: 2.121235 ms  DeleteObjects: 0.016862 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1015ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.3 MB.
+System memory in use after: 190.4 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2432.
+Total: 2.350500 ms (FindLiveObjects: 0.146778 ms CreateObjectMapping: 0.050396 ms MarkObjects: 2.135969 ms  DeleteObjects: 0.016706 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
